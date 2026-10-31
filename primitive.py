@@ -14,3 +14,22 @@ result1 = count.bit_count()  # method
 result2 = count.numerator  # state
 
 print(result1, result2)
+
+
+print("====== String =====")
+
+course = "AI Python Fullstack"
+course_type = type(course)
+
+result = course.title()
+print(f"The result1 is {result}")
+
+
+result = course.upper()
+print(f"The result2 is {result}")
+
+result = course.replace("Fullstack", "Foundation")
+print(f"The result3 is {result}")
+
+result = course.lower()
+print(f"The result4 is   {result}")
