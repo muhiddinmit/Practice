@@ -33,3 +33,26 @@ print(f"The result3 is {result}")
 
 result = course.lower()
 print(f"The result4 is   {result}")
+
+
+print("====== boolean =====")
+
+# Functions >  function()  type()  init() int() str() input()
+
+x = input("Give your value of x : ")
+print("x is ", x)
+
+result = x.isnumeric()
+print(f"The value of x is {result}")
+
+
+# truthy and falsy
+# truthu : True, 100, "MIT"
+# falsy : False , None, ""
+
+test_falsy = "" or False or None or 0
+print(f" the test_falsy is {bool(test_falsy)}")
+
+
+test_truthy = "MIT" or True or 100
+print(f"The test_truthy is {bool(test_truthy)}")
