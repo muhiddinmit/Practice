@@ -33,3 +33,16 @@ print(f"result2 is {result2}")
 # paradigm --> Functional programming & oop
 
 # oop has 4 consepts: Abstraction | Encapsulation |Inheritance |Polimorphism
+
+print("====== error handling ======")
+
+
+person = {"name": "Ali", "age": 25, "single": True}
+print(person)
+
+try:
+    result3 = person["country"]
+    print(result3)
+
+except KeyError as err:
+    print("no country key found")
