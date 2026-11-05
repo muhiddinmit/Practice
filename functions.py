@@ -3,7 +3,7 @@
 (1) Define vs call
 (2) Parametr vs Argument
 (3) Keyword vs Default argumnets
-(4) sCOPE
+(4) SCOPE
 
 """
 
@@ -52,3 +52,7 @@ def calculate(a):
 
 
 calculate(5)
+
+""" If we dont give parametr of b inside the function,
+ so it calls value of b from the outside of the function,
+ its called b = 100 is global scope"""
