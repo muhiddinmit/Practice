@@ -37,3 +37,10 @@ print("===== get method ====")
 name = person2.get("name")
 hobby = person2.get("hobby")
 print(f"name : {name}, hobby is {hobby}")
+
+del person2["single"]
+for key2 in person2:
+    print(key2)
+
+for key, value in person2.items():
+    print(key, value)
