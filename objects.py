@@ -28,3 +28,8 @@ result2 = ceil(99.8)
 
 print(f"result1 is {result1}")
 print(f"result2 is {result2}")
+
+
+# paradigm --> Functional programming & oop
+
+# oop has 4 consepts: Abstraction | Encapsulation |Inheritance |Polimorphism
