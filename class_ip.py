@@ -106,7 +106,7 @@ a = isinstance(fish, Fish)
 b = isinstance(fish, Animal)
 c = isinstance(Animal, object)
 d = isinstance("MIT", object)
-result = a and b and c and False
+result = a and b and c and d
 print("result :", result)
 
 # Fish > Animal > object
