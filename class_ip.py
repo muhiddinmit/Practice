@@ -8,6 +8,7 @@
 
 print("====== Inheritance =====")
 # parent ---> child
+# parent provides only public & protected properties (method, state) to child !!!
 
 description = "This class "
 
