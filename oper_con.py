@@ -64,11 +64,12 @@ is_guest = True
 if not is_student :
     print("Executed! Do you want to be student")
 
-elif is_admin or is_female:
-    print("Congrats! You are hired")
+# elif is_admin or is_female:
+  #print("Congrats! You are hired")
 
 else:
     print("No match found! ")
+
 
 
 
