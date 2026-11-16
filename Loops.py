@@ -53,7 +53,7 @@ while True:
           print(f"Congrats! you passed in {attempt} attempts")
           break
 
-print("------ finding magic word -----")
+print("------ finding magic word game -----")
 
 magic_word = "engineer"
 attempts = 0
